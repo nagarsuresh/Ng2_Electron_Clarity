@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 # @joaogarin
 
 # Logs
 logs
 *.log
+=======
+# Logs
+logs
+*.log
+npm-debug.log*
+>>>>>>> ed053f342d8d9de27b1a2d8b23c2518e91833614
 
 # Runtime data
 pids
@@ -15,6 +22,7 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+<<<<<<< HEAD
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -64,3 +72,26 @@ config.json
 
 #Remove vscode files
 .vscode
+=======
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+>>>>>>> ed053f342d8d9de27b1a2d8b23c2518e91833614

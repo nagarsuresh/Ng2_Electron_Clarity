@@ -24,4 +24,3 @@ Will run the package for OSX. You can also provide additional options to the pac
 *  --all : Will packaget the application to all the platforms
 *  --arch : Arches to be provided
 *  --icon : The icon for the app
-

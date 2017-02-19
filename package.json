@@ -1,7 +1,7 @@
 {
-  "name": "angular2-electron",
+  "name": "nsx_rest_client",
   "version": "0.0.0",
-  "description": "Angular 2 with Electron and Webpack",
+  "description": "Rest client for NSX manager",
   "main": "",
   "scripts": {
     "watch": "npm run watch:dev",
@@ -16,12 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joaogarin/angular2-electron.git"
+    "url": "https://github.com/snagar78/Ng2_Electron_Clarity.git"
   },
-  "author": "joaogarin <github@joaogarin.com>",
-  "license": "MIT",
+  "author": "Suresh Nagar",
   "bugs": {
-    "url": "https://github.com/joaogarin/angular2-electron/issues"
+    "url": "https://github.com/snagar78/Ng2_Electron_Clarity/issues"
   },
   "homepage": "",
   "dependencies": {
@@ -48,6 +47,7 @@
     "fs": "0.0.1-security",
     "hammerjs": "^2.0.8",
     "html-webpack-plugin": "^2.28.0",
+    "node-filelist": "0.0.1",
     "null-loader": "^0.1.1",
     "rxjs": "^5.0.0-rc.1",
     "webpack-target-electron-renderer": "^0.4.0",

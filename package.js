@@ -14,10 +14,11 @@ const platform = argv.platform || 'darwin';
 const DEFAULT_OPTS = {
     dir: './dist',
     name: appName,
-    asar: shouldUseAsar,
-    ignore: [
-    ].concat(devDeps.map(name => `/node_modules/${name}($|/)`))
+    asar: shouldUseAsar
 };
+
+
+console.log("DEFAULT_OPTS " + JSON.stringify(DEFAULT_OPTS));
 
 const icon = './dist/assets/app-icon';
 

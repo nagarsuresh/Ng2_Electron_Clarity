@@ -1,0 +1,17 @@
+<div class="main-container">
+    <div class="alert alert-app-level" *ngIf="hasGlobalError">
+    </div>
+    <ae-header></ae-header>
+    <nav class="subnav">
+    </nav>
+    <div class="content-container">
+        <div class="content-area">
+
+            <router-outlet></router-outlet>
+            
+        </div>
+        <nav class="sidenav">
+           <ae-navigator></ae-navigator>
+        </nav>
+    </div>
+</div>

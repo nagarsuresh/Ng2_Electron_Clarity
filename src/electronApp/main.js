@@ -1,7 +1,15 @@
 /**
  * Include our app
  */
-const {app, BrowserWindow } = require('electron');
+const {app, BrowserWindow, ipcMain} = require('electron');
+
+const {registerListeners} = require('./native/native_api_service.js');
+
+
+console.log(app.getPath('userData'));
+
+registerListeners();
+
 
 // browser-window creates a native window
 let mainWindow = null;
@@ -38,4 +46,6 @@ app.on('activate', () => {
   if (mainWindow === null) {
     createWindow();
   }
+
+
 });

@@ -1,0 +1,6 @@
+{
+    "name": "One",
+    "url": "/api/2.0/services/licensing/capacityusage",
+    "method": "GET",
+    "request": ""
+}

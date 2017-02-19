@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "nsx_rest_client",
   "version": "0.0.1",
   "main": "main.js"
 }
